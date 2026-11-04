@@ -1,0 +1,23 @@
+KALORIO – installierbare Web-App
+==================================
+
+Diese Version bietet zusätzlich zur Artifact-Version:
+• Live-Barcode-Scanner mit der Handykamera
+• Online-Suche in Open Food Facts (über 3 Mio. Produkte, kostenlos, ohne Konto)
+• Offline-Betrieb über einen Service Worker
+
+So bringst du sie aufs Handy
+----------------------------
+Die Dateien müssen über HTTPS erreichbar sein (sonst verweigern Browser Kamera und Installation).
+Möglichkeiten:
+1) GitHub Pages: neues Repository anlegen, alle Dateien aus diesem Ordner hochladen,
+   unter Settings → Pages den Branch „main“ aktivieren. Die Adresse lautet dann
+   https://<name>.github.io/<repo>/
+2) Netlify oder Cloudflare Pages: Ordner per Drag & Drop hochladen.
+3) Eigener Webserver/NAS mit HTTPS: Ordner einfach in das Web-Verzeichnis kopieren.
+
+Dann auf dem Handy die Adresse öffnen und
+• iPhone (Safari): Teilen → „Zum Home-Bildschirm“
+• Android (Chrome): Menü ⋮ → „App installieren“
+
+Alle Daten bleiben im Browser des Geräts (IndexedDB). Sicherungen erstellst du in der App unter Profil → Daten.
